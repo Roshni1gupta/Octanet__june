@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Great+Vibes&family=Poppins:wght@100;200;300&display=swap');
+
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set global font styles */
+body {
+  background-color: #000000;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Style the header */
+header {
+  color: #fff;
+}
+
+header ul {
+  list-style: none;
+  border-bottom: 0.2em solid #A48111;
+}
+
+header ul li {
+  display: inline-block;
+  margin: 1em 1em 1em 1em;
+
+}
+
+header ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header ul li a:hover {
+  color: #d4af37;
+}
+
+.login {
+  float: right;
+}
+
+/* Style the slogon section */
+#slogon {
+  background-size: cover;
+  color: #fff;
+  text-align: left;
+  padding: 5em;
+}
+
+#slogon h2 {
+  font-family: 'Great Vibes', cursive;
+}
+
+/*style for button*/
+.button {
+  display: inline-block;
+  padding: 1em;
+  background-color: #A48111;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+}
+
+.button:hover {
+  color: #000000;
+  background-color: dimgrey;
+}
+
+.checked {
+  color: orange;
+}
+
+h3 {
+  color: #fff;
+}
+
+/*style for mobile*/
+@media screen and (max-width: 600px) {
+  header {
+    font-size: .5em;
+    width: 45em;
+  }
+  #logo {
+    position: absolute;
+    top: 2em;
+  }
+  .img2 {
+    width: 9em;
+    max-height: 10em;
+  }
+  #slogon h2 {
+    font-size: 3em;
+    margin-bottom: .2em;
+    position: absolute;
+    left: .5em;
+    top: 4em;
+  }
+  #slogon p {
+    font-size: 1em;
+    margin-bottom: .2em;
+    position: absolute;
+    left: 1em;
+    right: 2em;
+    top: 20em;
+  }
+  .button {
+    padding: .3em;
+    position: absolute;
+    top: 25em;
+    left: 1em;
+  }
+  #reviews {
+    font-size: .6em;
+    position: absolute;
+    top: 42em;
+    left: 11em;
+  }
+
+  #productimg {
+    position: absolute;
+    top: 30em;
+    right: 1em;
+  }
+
+  .img1 {
+    width: 10em;
+    max-height: 20em;
+  }
+
+  #logo {
+    height: 1em;
+    width: 1em;
+  }
+}
+
+/*style for tablet*/
+@media only screen and (min-width: 768px) {
+  header {
+    padding: 1em;
+    font-size: 1.2em;
+  }
+
+  #logo {
+    position: absolute;
+    top: 5em;
+    left: .2em;
+  }
+
+  .img2 {
+    width: 20em;
+    max-height: 20em;
+  }
+
+  #slogon h2 {
+    font-size: 5em;
+    margin-bottom: .2em;
+    position: absolute;
+    left: .5em;
+    right: 2em;
+    top: 5.5em;
+  }
+
+  #slogon p {
+    font-size: 1.5em;
+    margin-bottom: .2em;
+    position: absolute;
+    left: 1em;
+    right: 15em;
+    top: 27em;
+  }
+
+  .button {
+    padding: 1em;
+    position: absolute;
+    top: 50em;
+    left: 2em;
+  }
+
+  #reviews {
+    position: absolute;
+    top: 50em;
+    left: 10em;
+  }
+
+  #productimg {
+    position: absolute;
+    top: 45em;
+    right: 1em;
+  }
+
+  .img1 {
+    width: 25em;
+    max-height: 30em;
+  }
+}
+
+/*for desktops*/
+@media only screen and (min-width: 800px) {
+
+  header {
+    padding: 1em;
+    font-size: 1.5em;
+  }
+
+  #logo {
+    position: absolute;
+    top: 7em;
+    left: 5em;
+  }
+
+  .img2 {
+    width: 20em;
+    max-height: 20em;
+  }
+
+  #slogon h2 {
+    font-size: 7em;
+    margin-bottom: .2em;
+    position: absolute;
+    left: 1em;
+    right: 10em;
+    top: 4em;
+  }
+
+  #slogon p {
+    font-size: 2em;
+    margin-bottom: .2em;
+    position: absolute;
+    left: 4em;
+    right: 35em;
+    top: 23em;
+  }
+
+  .button {
+    padding: 1.5em;
+    position: absolute;
+    top: 55em;
+    left: 8em;
+  }
+
+  #reviews {
+    position: absolute;
+    top: 56em;
+    left: 17em;
+  }
+
+  #productimg {
+    position: absolute;
+    top: 25em;
+    right: 20em;
+  }
+
+  .img1 {
+    width: 40em;
+    max-height: 50em;
+  }
+}
